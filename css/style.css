@@ -1,0 +1,339 @@
+/*Color #00BFF3*/
+
+/*-----------------
+BASIC CSS ALL PAGE START
+-------------------*/
+
+/* all page navbar css */
+.navbar-logo{
+    height: 35px;
+}
+.navbar-bg{
+    background-color: #ffff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.nav-item{
+    color: #00BFF3;
+}
+.nav-item:hover{
+    color: #000;
+}
+.icofont-navigation-menu{
+    color: #00BFF3;
+}
+.icofont-navigation-menu:hover{
+    color: #000;
+}
+
+/*all page  call to action css*/
+.call-to-action{
+    background: url(../Assets/Photo/call-to-action-bg/call-to-action-bg.jpeg);
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cta-overlay{
+    background: #003d4ece;
+    height: 40vh;
+}
+.cta-row{
+    padding-top: 125px;
+}
+@media(max-width:768px){
+    .cta-row{
+        padding-top: 72px;
+    }
+}
+.cta-title{
+    color: #ffff;
+}
+.cta-id{
+    text-decoration: none;
+    color: #ffff;
+}
+.cta-id:hover{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/*all page footer cradit css*/
+.footer{
+    background: #00BFF3 ;
+    height: 45px;
+}
+.footer-cradit{
+    margin-bottom: 0px;
+    padding-top: 12px;
+    color: #ffff;
+    font-size: 14px;
+}
+
+@media(max-width:535px){
+    .footer{
+        height: 58px;
+    }
+    .footer-cradit{
+        padding-top: 20px;
+    }
+}
+
+/*-----------------
+BASIC CSS ALL PAGE END 
+-------------------------------------------------------------------*/
+
+
+
+/*herosection css*/
+.hero-bg{
+    background: url(../Assets/Photo/hero-bg/bg.jpeg);
+    height: 60vh;
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+.overlay{
+    height: 60vh;
+    background: #075884ab;
+}
+
+.welcome-title{
+    padding-top: 210px;
+    color: #ffff;
+    font-size: 55px;
+
+}
+.welcome-subtitle{
+    color: #ffff;
+    font-size: 25px;
+}
+
+@media(max-width:768px){
+    .welcome-title{
+        font-size: 35px !important;
+    }
+    .welcome-subtitle{
+        font-size: 18px;
+    }
+}
+
+.hero-read-more-btn{
+    border: 1px solid #ffff !important;
+    border-radius: 20px !important;
+    color: #ffff !important;
+}
+
+.hero-read-more-btn:hover{
+    color: #075884ab !important;
+    background: #ffff !important;
+}
+
+/*home hello you are welcome section css start*/
+
+.home-info-title{
+    font-size: 30px;
+}
+.home-info-2title{
+    font-size: 20px;
+}
+.home-working-on-title{
+    font-size: 20px;
+}
+.working-on{
+    height: 40px;
+}
+
+/*home services section css*/
+
+.services-shadow-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 75px;
+    color: rgba(230, 230, 230, 0.74);
+}
+
+.services-title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: -68px;
+}
+
+.icofont-check-circled{
+    color: #00BFF3;
+}
+
+/* home process section css css*/
+.process-shadow-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 75px;
+    color: rgba(230, 230, 230, 0.74);
+}
+
+.process-title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: -68px;
+}
+
+
+
+/*my-resume about section css*/
+
+.about-shadow-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: rgba(230, 230, 230, 0.74);
+}
+
+.about-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: -68px;
+}
+
+.about-detail{
+    padding-top: 50px;
+}
+
+@media(max-width: 768px){
+    .personal-info-box{
+        padding-left: 85px !important;
+    }
+}
+@media(max-width: 500px){
+    .personal-info-box{
+        padding-left: 37px !important;
+    }
+}
+
+/*my-portfolio portfolio */
+.portfolio-shadow-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: rgba(230, 230, 230, 0.74) ;
+}
+
+.portfolio-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: -68px;
+}
+
+/* portfolio */
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(34, 34, 34, 0.6);
+  }
+  
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(34, 34, 34, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+  }
+  
+  .portfolio .portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+
+  
+  .portfolio .portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a {
+    color: #fff;
+    margin: 0 5px 0 0;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a:hover {
+    color: #00BFF3;
+    text-decoration: none;
+  }
+  
+  .portfolio .portfolio-wrap:hover::before {
+    opacity: 1;
+  }
+  
+  .portfolio .portfolio-wrap:hover img {
+    transform: scale(1.2);
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+
+  .icofont-eye-alt{
+      font-size: 20px;
+  }
+  .img-thumbnail{
+      border-radius: 1px !important;
+  }
+
+
+  /*contact me section css*/
+  .contact-me-shadow-title{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      font-size: 66px;
+      color: rgba(230, 230, 230, 0.74);
+  }
+
+  .contact-me-title{
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 600;
+      margin-top: -68px;
+  }
+  
